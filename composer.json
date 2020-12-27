@@ -1,0 +1,36 @@
+{
+  "name": "zt2/blog-rss-feed",
+  "type": "library",
+  "description": "Zorto PWA Rss Feed extension",
+  "keywords": [
+    "pwa",
+    "blog",
+    "extension",
+    "rss",
+    "feed"
+  ],
+  "homepage": "http://pwablog-m2.com/",
+  "license": "MIT",
+  "version": "1.0.1",
+  "require": {
+    "php": "~7.1.3||~7.2.0||~7.3.0",
+    "magento/framework": "^102"
+  },
+  "minimum-stability": "stable",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "ZT\\RssFeed\\": ""
+    }
+  },
+  "authors": [
+    {
+      "name": "Zorto PWA",
+      "email": "zorto.pwa@gmail.com",
+      "homepage": "http://pwablog-m2.com/",
+      "role": "Developer"
+    }
+  ]
+}
